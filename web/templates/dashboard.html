@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    <form action="/query" method="post">
+        <div class="jira-project-id">
+            <label>
+                <b>JIRA Project ID</b>
+                <input type="text" placeholder="JIRA Project ID" name="project-id" required>
+            </label>
+        </div>
+        <div class="button">
+            <button type="submit">Query</button>
+        </div>
+        <div class="button">
+            <button type="button" formaction="/export">Export</button>
+        </div>
+    </form>
+</body>
+</html>
